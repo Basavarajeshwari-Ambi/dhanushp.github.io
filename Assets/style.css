@@ -193,7 +193,7 @@
 .last-flex {
   width: 90%;
   position: relative;
-  display: flex;
+  display: block;
   margin: auto;
 }
 
@@ -209,4 +209,135 @@
   height: 5px;
   background-color: #ffe9e9;
   margin-top: 20px;
+}
+
+.image-container{
+  display: flex;
+  position: relative;
+  width: 90%;
+  margin: 100px auto 0 auto;
+  justify-content: center;
+}
+
+.avatar{
+  width: 20%;
+  border-radius: 200px;
+}
+
+.name-container h2{
+  display: flex;
+  position: relative;
+  justify-content: center;  
+  font-size: 3em;
+  margin: 20px;
+  color: #454545;
+}
+
+#wrap {
+  box-sizing: border-box;
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+  
+}
+
+.button, .button:visited {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  padding: 15px 0 0 0;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  transition: all 250ms;
+}
+.button.twitter {
+  background-color: #09f;
+}
+.button.twitter:hover, .button.twitter:hover {
+  opacity: 0.8;
+}
+.button.twitter:active {
+  opacity: 0.8;
+}
+.button.github {
+  background-color: #222;
+}
+.button.github:hover, .button.github:hover {
+  opacity: 0.8;
+}
+.button.github:active {
+  opacity: 0.8;
+}
+.button.dribbble {
+  background-color:  #ea4c89 ;
+}
+.button.dribbble:hover, .button.dribble:hover {
+  opacity: 0.8;
+}
+.button.dribbble:active {
+  opacity: 0.8;
+}
+.button.linkedin {
+  background-color: #07d;
+}
+.button.linkedin:hover, .button.linkedin:hover {
+  opacity: 0.8;
+}
+.button.linkedin:active {
+  opacity: 0.8;
+}
+.button.gmail {
+  background-color: #D44638;
+}
+.button.gmail:hover, .button.gmail:hover {
+  opacity: 0.8;
+}
+.button.gmail:active {
+  opacity: 0.8;
+}
+.button:focus, .button:hover {
+  cursor: pointer;
+}
+
+.down {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  /* border: 1px solid red; */
+}
+
+.footer {
+  color: #666;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer a {
+  color: #4c37a8;
+  text-decoration: none;
+}
+
+.footer .fa {
+  color: #e90606;
+  margin: 0 3px;
+  font-size: 20px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
 }
