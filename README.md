@@ -6,3 +6,7 @@ Website url : https://dhanushbangera.dev/
 ## Getting Started
 
 This is a basic html css website which does not require any deployment. Website is still under construction :construction:
+
+### Contributing
+
+Head to issue section to check how you can contribute :blush:
