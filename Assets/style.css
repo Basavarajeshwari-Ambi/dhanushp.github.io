@@ -82,3 +82,36 @@
 #me span {
   color: #4c37a8;
 }
+
+.middle-flex {
+  width: 90%;
+  position: relative;
+  display: flex;
+  margin: 450px auto;
+}
+
+.half-circle {
+  width: 250px;
+  height: 500px;
+  background-color: #fff8fa;
+  border-bottom-right-radius: 510px;
+  border-top-right-radius: 510px;
+  /* border: 10px solid gray; */
+  position: absolute;
+  left: 0;
+  top: 800px;
+}
+
+.middle-flex h1 {
+  font-size: 5em;
+  color: #4c37a8;
+}
+
+.middle-flex h1::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 5px;
+  background-color: #ffe9e9;
+  margin-top: 20px;
+}
