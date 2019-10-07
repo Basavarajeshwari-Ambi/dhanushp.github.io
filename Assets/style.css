@@ -8,7 +8,6 @@
   display: block;
   position: relative;
   width: 100%;
-  /* background-color: aqua; */
   padding-top: 30px;
 }
 
@@ -55,7 +54,7 @@
 }
 
 .content-flex {
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
 .front-flex {
@@ -63,4 +62,23 @@
   position: relative;
   display: block;
   margin: auto;
+}
+
+.content-flex .front-flex p {
+  font-size: 3em;
+  color: #454545;
+}
+
+.content-flex .front-flex h1 {
+  font-size: 4em;
+  color: #4c37a8;
+}
+
+#me {
+  margin-top: 65px;
+  font-size: 2.5em;
+}
+
+#me span {
+  color: #4c37a8;
 }
