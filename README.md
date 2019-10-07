@@ -10,3 +10,8 @@ This is a basic html css website which does not require any deployment. Website 
 ### Contributing
 
 Head to issue section to check how you can contribute :blush:
+
+## Authors
+
+* **Dhanush Bangera** - *Initial work* - [Dhanush Bangera](https://github.com/dhanushp)
+
