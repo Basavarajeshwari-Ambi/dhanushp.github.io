@@ -40,6 +40,11 @@
   color: white;
 }
 
+.nav-items ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
 .nav-items .brand {
   color: #4c37a8;
   font-size: 1.8em;
@@ -239,6 +244,10 @@
   margin: 100px;
   justify-content: space-around;
   
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .button, .button:visited {
