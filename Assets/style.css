@@ -1273,7 +1273,7 @@ a:link {
     }
     
     .content-flex {
-      margin-top: 280px;
+      margin-top: 300px;
     }
     
     .front-flex {
@@ -1341,7 +1341,7 @@ a:link {
       width: 90%;
       position: relative;
       margin: auto;
-      margin-top: 80px;
+      margin-top: 50px;
       margin-bottom: 80px;
       justify-content: space-around;
     }
