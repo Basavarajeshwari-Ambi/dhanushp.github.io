@@ -961,7 +961,7 @@ a:link {
       display: flex;
       margin: 0 0 0 auto;
       flex-direction: row;
-      padding-right: 60px;
+      padding-right: 65px;
     }
     
     .nav-items ul li {
@@ -1244,7 +1244,7 @@ a:link {
       display: flex;
       margin: 0 0 0 auto;
       flex-direction: row;
-      padding-right: 43px;
+      padding-right: 46px;
     }
     
     .nav-items ul li {
@@ -1306,7 +1306,7 @@ a:link {
       width: 90%;
       position: relative;
       display: flex;
-      margin: 200px auto auto auto;
+      margin: 250px auto auto auto;
     }
     
     .half-circle {
