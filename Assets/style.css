@@ -226,6 +226,7 @@
 
 .avatar{
   width: 20%;
+  height: 20%;
 }
 
 .name-container h2{
@@ -577,6 +578,7 @@ a:link {
     
     .avatar{
       width: 50%;
+      height: 50%;
     }
     
     .name-container h2{
@@ -859,6 +861,7 @@ a:link {
     
     .avatar{
       width: 50%;
+      height: 50%;
     }
     
     .name-container h2{
@@ -1140,6 +1143,7 @@ a:link {
     
     .avatar{
       width: 50%;
+      height: 50%;
     }
     
     .name-container h2{
@@ -1422,6 +1426,7 @@ a:link {
     
     .avatar{
       width: 50%;
+      height: 50%;
  
     }
     
@@ -1701,6 +1706,7 @@ a:link {
     
     .avatar{
       width: 50%;
+      height: 50%;
     }
     
     .name-container h2{
@@ -1983,6 +1989,7 @@ a:link {
     
     .avatar{
       width: 50%;
+      height: 50%;
     }
     
     .name-container h2{
