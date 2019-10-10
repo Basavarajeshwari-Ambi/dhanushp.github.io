@@ -365,8 +365,7 @@ a:link {
 
 /* 2688x1242px at 458ppi */
 @media only screen 
-  and (device-width : 414px) 
-  and (device-height : 896px) 
+  and (device-width : 414px)  
   and (-webkit-device-pixel-ratio : 3)
   and (orientation: portrait) { 
 
@@ -931,8 +930,7 @@ a:link {
 
 /* Portrait */
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (min-device-width: 414px)  
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .navbar {
@@ -1215,7 +1213,7 @@ a:link {
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar {
@@ -1778,7 +1776,7 @@ a:link {
 /* Portrait */
 @media only screen 
   and (min-device-width: 360px) 
-  and (max-device-width: 740px) 
+ 
   and (-webkit-min-device-pixel-ratio: 4)
   and (orientation: portrait) { 
     .navbar {
