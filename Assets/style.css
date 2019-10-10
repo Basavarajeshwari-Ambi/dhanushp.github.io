@@ -88,6 +88,14 @@
   color: #4c37a8;
 }
 
+#me1 {
+  font-size: 2.5em;
+}
+
+#me1 span {
+  color: #4c37a8;
+}
+
 .middle-flex {
   width: 90%;
   position: relative;
@@ -365,7 +373,7 @@ a:link {
 
 /* 2688x1242px at 458ppi */
 @media only screen 
-  and (device-width : 520px)  
+  and (device-width : 420px)  
   and (-webkit-device-pixel-ratio : 3)
   and (orientation: portrait) { 
 
@@ -450,6 +458,14 @@ a:link {
     }
     
     #me span {
+      color: #4c37a8;
+    }
+
+    #me1 {
+      font-size: 1.2em;
+    }
+    
+    #me1 span {
       color: #4c37a8;
     }
     
@@ -736,6 +752,14 @@ a:link {
       color: #4c37a8;
     }
     
+    #me1 {
+      font-size: 1.1em;
+    }
+    
+    #me1 span {
+      color: #4c37a8;
+    }
+
     .middle-flex {
       width: 90%;
       position: relative;
@@ -1010,6 +1034,15 @@ a:link {
     
     #me {
       margin-top: 65px;
+      font-size: 1.2em;
+    }
+    
+    #me span {
+      color: #4c37a8;
+    }
+
+
+    #me1 {
       font-size: 1.2em;
     }
     
@@ -1299,6 +1332,14 @@ a:link {
     #me span {
       color: #4c37a8;
     }
+
+    #me1 {
+      font-size: 1.1em;
+    }
+    
+    #me span {
+      color: #4c37a8;
+    }
     
     .middle-flex {
       width: 90%;
@@ -1577,6 +1618,14 @@ a:link {
     }
     
     #me span {
+      color: #4c37a8;
+    }
+
+    #me1 {
+      font-size: 0.91em;
+    }
+    
+    #me1 span {
       color: #4c37a8;
     }
     
@@ -1860,6 +1909,14 @@ a:link {
     }
     
     #me span {
+      color: #4c37a8;
+    }
+
+    #me1 {
+      font-size: 1em;
+    }
+    
+    #me1 span {
       color: #4c37a8;
     }
     
