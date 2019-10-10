@@ -365,7 +365,7 @@ a:link {
 
 /* 2688x1242px at 458ppi */
 @media only screen 
-  and (device-width : 420px)  
+  and (device-width : 520px)  
   and (-webkit-device-pixel-ratio : 3)
   and (orientation: portrait) { 
 
