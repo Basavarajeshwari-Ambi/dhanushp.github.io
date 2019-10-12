@@ -2108,3 +2108,293 @@ a:link {
     }
 
 }
+
+/* ----------- Galaxy S5 ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 360px) 
+
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navbar {
+      display: block;
+      position: relative;
+      width: 100%;
+      padding-top: 10px;
+    }
+
+    .navbar-container {
+      width: 90%;
+      display: block;
+      position: relative;
+      margin: auto;
+    }
+
+    .nav-items {
+      display: flex;
+      margin: auto;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .nav-items ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0 0 0 auto;
+      flex-direction: row;
+      padding-right: 45px;
+    }
+
+    .nav-items ul li {
+      margin: 0 0 0 15px;
+      font-size: 0.6em;
+      cursor: pointer;
+      color: white;
+    }
+
+    .nav-items ul li a{
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .nav-items .brand {
+      color: #4c37a8;
+      font-size: 0.8em;
+      font-family: "Pacifico", cursive;
+    }
+    .image {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      width: 120%;
+      z-index: -1;
+    }
+
+    .content-flex {
+      margin-top: 280px;
+    }
+
+    .front-flex {
+      width: 90%;
+      position: relative;
+      display: block;
+      margin: auto;
+    }
+
+    .content-flex .front-flex p {
+      font-size: 1.5em;
+      color: #454545;
+    }
+
+    .content-flex .front-flex h1 {
+      font-size: 2em;
+      color: #4c37a8;
+    }
+
+    #me {
+      margin-top: 65px;
+      font-size: 1em;
+    }
+
+    #me span {
+      color: #4c37a8;
+    }
+
+    #me1 {
+      font-size: 1em;
+    }
+
+    #me1 span {
+      color: #4c37a8;
+    }
+
+    .middle-flex {
+      width: 90%;
+      position: relative;
+      display: flex;
+      margin: 250px auto auto auto;
+    }
+
+    .half-circle {
+      width: 200px;
+      height: 400px;
+      background-color: #fff8fa;
+      border-bottom-right-radius: 510px;
+      border-top-right-radius: 510px;
+      position: absolute;
+      left: 0;
+      top: 470px;
+    }
+
+    .middle-flex h1 {
+      font-size: 2.5em;
+      color: #4c37a8;
+    }
+
+    .middle-flex h1::after {
+      content: "";
+      display: block;
+      width: 250px;
+      height: 5px;
+      background-color: #ffe9e9;
+      margin-top: 20px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 90%;
+      position: relative;
+      margin: auto;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      justify-content: space-around;
+    }
+
+    .card1 {
+      width: 400px;
+      height: 200px;
+      background-image: linear-gradient(to right, #bf1660, #691f79);
+      margin: 25px;
+      border-radius: 25px;
+    }
+
+    .card2 {
+      width: 400px;
+      height: 200px;
+      background-image: linear-gradient(to right, #bf1660, #691f79);
+      margin: 25px;
+      border-radius: 25px;
+    }
+
+
+
+    .card span {
+      display: block;
+    }
+
+    .card-title {
+      padding: 5% 3% 0% 3%;
+      color: white;
+      position: absolute;
+      width: 79%;
+      font-size: 1em;
+      /* border: 1px solid red; */
+    }
+
+    .card-title h3 {
+      font-size: 1.2em;
+      line-height: 1.2;
+      padding: 0;
+      margin: 0;
+    }
+
+    .card-summary {
+      padding: 15% 3% 2.5% 3%;
+      color: white;
+      line-height: 1.2em;
+      position: absolute;
+      font-size: 1.1em;
+      width: 79%;
+      /* border: 1px solid red; */
+    }
+
+
+    .last-flex {
+      width: 90%;
+      position: relative;
+      display: block;
+      margin: auto;
+    }
+
+    .last-flex h1 {
+      font-size: 2.1em;
+      color: #4c37a8;
+    }
+
+    .last-flex h1::after {
+      content: "";
+      display: block;
+      width: 250px;
+      height: 5px;
+      background-color: #ffe9e9;
+      margin-top: 20px;
+    }
+
+    .image-container{
+      display: flex;
+      position: relative;
+      width: 90%;
+      margin: 60px auto;
+      justify-content: center;
+    }
+
+    .avatar{
+      width: 50%;
+      height: 50%;
+    }
+
+    .name-container h2{
+      display: flex;
+      position: relative;
+      justify-content: center;  
+      font-size: 1.8em;
+      margin: 10px;
+      color: #454545;
+    }
+
+    #wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin: 35px;
+
+    }
+
+    .button, .button:visited {
+      display: inline-block;
+      width: 250px;
+      height: 40px;
+      font-size: 20px;
+      padding: auto;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+      transition: all 250ms;
+    }
+
+    .down {
+      display: inline-flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 50px;
+      /* border: 1px solid red; */
+    }
+
+    .footer {
+      color: #666;
+      font-size: 10px;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #4c37a8;
+      text-decoration: none;
+    }
+
+    .footer .fa {
+      color: #e90606;
+
+      font-size: 10px;
+      animation: pound 0.35s infinite alternate;
+      -webkit-animation: pound 0.35s infinite alternate;
+    }
+
+}
