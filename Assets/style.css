@@ -2115,11 +2115,7 @@ a:link {
 /* Portrait */
 @media only screen 
   and (min-device-width: 360px) 
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .navbar {
@@ -2128,22 +2124,14 @@ a:link {
       width: 100%;
       padding-top: 10px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .navbar-container {
       width: 90%;
       display: block;
       position: relative;
       margin: auto;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .nav-items {
       display: flex;
       margin: auto;
@@ -2158,31 +2146,19 @@ a:link {
       flex-direction: row;
       padding-right: 45px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .nav-items ul li {
       margin: 0 0 0 15px;
       font-size: 0.6em;
       cursor: pointer;
       color: white;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .nav-items ul li a{
       color: #fff;
       text-decoration: none;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .nav-items .brand {
       color: #4c37a8;
       font-size: 0.8em;
@@ -2195,57 +2171,33 @@ a:link {
       width: 120%;
       z-index: -1;
     }
-<<<<<<< HEAD
 
     .content-flex {
       margin-top: 280px;
     }
 
-=======
-    
-    .content-flex {
-      margin-top: 280px;
-    }
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .front-flex {
       width: 90%;
       position: relative;
       display: block;
       margin: auto;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .content-flex .front-flex p {
       font-size: 1.5em;
       color: #454545;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .content-flex .front-flex h1 {
       font-size: 2em;
       color: #4c37a8;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     #me {
       margin-top: 65px;
       font-size: 1em;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     #me span {
       color: #4c37a8;
     }
@@ -2253,30 +2205,18 @@ a:link {
     #me1 {
       font-size: 1em;
     }
-<<<<<<< HEAD
 
     #me1 span {
       color: #4c37a8;
     }
 
-=======
-    
-    #me1 span {
-      color: #4c37a8;
-    }
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .middle-flex {
       width: 90%;
       position: relative;
       display: flex;
       margin: 250px auto auto auto;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .half-circle {
       width: 200px;
       height: 400px;
@@ -2287,20 +2227,12 @@ a:link {
       left: 0;
       top: 470px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .middle-flex h1 {
       font-size: 2.5em;
       color: #4c37a8;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .middle-flex h1::after {
       content: "";
       display: block;
@@ -2309,11 +2241,7 @@ a:link {
       background-color: #ffe9e9;
       margin-top: 20px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .card-container {
       display: flex;
       flex-direction: row;
@@ -2325,11 +2253,7 @@ a:link {
       margin-bottom: 80px;
       justify-content: space-around;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .card1 {
       width: 400px;
       height: 200px;
@@ -2337,11 +2261,7 @@ a:link {
       margin: 25px;
       border-radius: 25px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .card2 {
       width: 400px;
       height: 200px;
@@ -2349,7 +2269,6 @@ a:link {
       margin: 25px;
       border-radius: 25px;
     }
-<<<<<<< HEAD
 
 
 
@@ -2357,15 +2276,6 @@ a:link {
       display: block;
     }
 
-=======
-    
-    
-    
-    .card span {
-      display: block;
-    }
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .card-title {
       padding: 5% 3% 0% 3%;
       color: white;
@@ -2374,22 +2284,14 @@ a:link {
       font-size: 1em;
       /* border: 1px solid red; */
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .card-title h3 {
       font-size: 1.2em;
       line-height: 1.2;
       padding: 0;
       margin: 0;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .card-summary {
       padding: 15% 3% 2.5% 3%;
       color: white;
@@ -2407,20 +2309,12 @@ a:link {
       display: block;
       margin: auto;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .last-flex h1 {
       font-size: 2.1em;
       color: #4c37a8;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .last-flex h1::after {
       content: "";
       display: block;
@@ -2429,11 +2323,7 @@ a:link {
       background-color: #ffe9e9;
       margin-top: 20px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .image-container{
       display: flex;
       position: relative;
@@ -2441,20 +2331,12 @@ a:link {
       margin: 60px auto;
       justify-content: center;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .avatar{
       width: 50%;
       height: 50%;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .name-container h2{
       display: flex;
       position: relative;
@@ -2463,26 +2345,16 @@ a:link {
       margin: 10px;
       color: #454545;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     #wrap {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
       margin: 35px;
-<<<<<<< HEAD
 
     }
 
-=======
-      
-    }
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .button, .button:visited {
       display: inline-block;
       width: 250px;
@@ -2505,43 +2377,24 @@ a:link {
       margin-top: 50px;
       /* border: 1px solid red; */
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .footer {
       color: #666;
       font-size: 10px;
       text-align: center;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
     .footer a {
       color: #4c37a8;
       text-decoration: none;
     }
-<<<<<<< HEAD
 
     .footer .fa {
       color: #e90606;
 
-=======
-    
-    .footer .fa {
-      color: #e90606;
-  
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
       font-size: 10px;
       animation: pound 0.35s infinite alternate;
       -webkit-animation: pound 0.35s infinite alternate;
     }
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> da6c52088e31bb30eb8906c9e49dc51b8e4fb846
